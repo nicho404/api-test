@@ -20,7 +20,7 @@
   "expert" : {
       "id" : 1,
       "name" : "Alpha",
-      "status" : true,
+      "status" : 0,
       "creator_name" : "nico.avi",
       "risk_level" : 0.75
     }
