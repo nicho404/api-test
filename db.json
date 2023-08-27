@@ -1,11 +1,26 @@
 {
-  "posts": [
-    {
+  "clients": {
       "id": 1,
-      "title": "hello"
+      "name": "Nico",
+      "surname" : "Avi",
+      "username" : "nico.avi",
+      "mail" : "nico.avi@gmail.com",
+      "psw" : "******",
+      "account_number" : "200456987",
+      "ea_id" : 1
+    },
+
+  "broker_account_data": {
+      "id": "1",
+      "account_number" : "200456987",
+      "balance" : "10853.88",
+      "status" : "active"
+    },
+
+  "expert" : {
+      "id" : "1",
+      "name" : "omega",
+      "creator_name" : "nico.avi",
+      "risk_level" : "1.5"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
 }
