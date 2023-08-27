@@ -21,7 +21,7 @@
     {
       "id" : 1,
       "name" : "Alpha",
-      "status" : 1,
+      "status" : 0,
       "creator_name" : "braintech finance",
       "risk_level" : 0.50
     },
