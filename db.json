@@ -1,50 +1,54 @@
 {
-  "clients": {
-      "id": 1,
-      "name": "Nico",
-      "surname" : "Avi",
-      "username" : "nico.avi",
-      "mail" : "nico.avi@gmail.com",
-      "psw" : "******",
-      "account_number" : 200456987,
-      "ea_id" : 1
-    },
+  "account_number" : {
 
-  "broker_account_data": {
-      "id": 1,
-      "account_number" : 200456987,
-      "balance" : 10853.88,
-      "status" : "active"
-    },
+    "200456987" : {
+     "clients" : {
+       "id": 1,
+       "name": "Nico",
+       "surname" : "Avi",
+       "username" : "nico.avi",
+       "mail" : "nico.avi@gmail.com",
+       "psw" : "******",
+       "ea_id" : 1
+      },
 
-  "expert" : [
-    {
-      "id" : 1,
-      "name" : "Alpha",
-      "status" : 0,
-      "creator_name" : "braintech finance",
-      "risk_level" : 0.50
-    },
-    {
-      "id": 2,
-      "name": "Beta",
-      "status": 0,
-      "creator_name": "braintech finance",
-      "risk_level": 0.75
-    },
+     "broker_account_data": {
+       "id": 1,
+       "account_number" : 200456987,
+       "balance" : 10853.88,
+       "status" : "active"
+      },
+
+     "expert" : [
+      {
+       "id" : 1,
+       "name" : "Alpha",
+       "status" : 1,
+       "creator_name" : "braintech finance",
+       "risk_level" : 0.50
+       },
+      {
+       "id": 2,
+       "name": "Beta",
+       "status": 0,
+       "creator_name": "braintech finance",
+       "risk_level": 0.75
+       },
      {
-      "id": 3,
-      "name": "Gamma",
-      "status": 0,
-      "creator_name": "braintech finance",
-      "risk_level": 1.00
-    },
-     {
-      "id": 4,
-      "name": "Omega",
-      "status": 0,
-      "creator_name": "braintech finance",
-      "risk_level": 1.25
+       "id": 3,
+       "name": "Gamma",
+       "status": 0,
+       "creator_name": "braintech finance",
+       "risk_level": 1.00
+       },
+      {
+       "id": 4,
+       "name": "Omega",
+       "status": 0,
+       "creator_name": "braintech finance",
+       "risk_level": 1.25
+       }
+      ]
     }
-  ]
+  }
 }
