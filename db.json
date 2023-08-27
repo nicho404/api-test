@@ -4,7 +4,6 @@
        "id": 1,
        "name": "Nico",
        "surname" : "Avi",
-       "username" : "nico.avi",
        "mail" : "nico.avi@gmail.com",
        "psw" : "******",
        "ea_id" : 1
