@@ -17,11 +17,34 @@
       "status" : "active"
     },
 
-  "expert" : {
+  "expert" : [
+    {
       "id" : 1,
       "name" : "Alpha",
       "status" : 1,
-      "creator_name" : "nico.avi",
-      "risk_level" : 0.75
+      "creator_name" : "braintech finance",
+      "risk_level" : 0.50
+    },
+    {
+      "id": 2,
+      "name": "Beta",
+      "status": 0,
+      "creator_name": "braintech finance",
+      "risk_level": 0.75
+    },
+     {
+      "id": 3,
+      "name": "Gamma",
+      "status": 0,
+      "creator_name": "braintech finance",
+      "risk_level": 1.00
+    },
+     {
+      "id": 4,
+      "name": "Omega",
+      "status": 0,
+      "creator_name": "braintech finance",
+      "risk_level": 1.25
     }
+  ]
 }
